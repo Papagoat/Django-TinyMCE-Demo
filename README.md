@@ -1,20 +1,22 @@
 # Django Admin TinyMCE WYSIWYG Editor Demo
 
 ## Prerequisite
-Python => v3.7.2
-Virtualenv => v16.2.0
-Django => v2.1.5
-Django-tinymce => v2.8.0
+* Python => v3.7.2
+* Virtualenv => v16.2.0
+* Django => v2.1.5
+* Django-tinymce => v2.8.0
 
 ## Installation
 
 1. Download [Python](https://www.python.org/downloads/).
+
 
 2. Install virtualenv
 
 ```sh
 $ pip install virtualenv
 ```
+
 3. Activate your virtualenv
 
 **Windows**
@@ -26,8 +28,9 @@ $ .\ENV\Scripts\activate
 **Mac**
 ```sh
 $ virtualenv ENV
- $ source ./env/bin/activate
+$ source ./env/bin/activate
  ```
+
 4. Install django and django-tinymce
 
 ```sh
