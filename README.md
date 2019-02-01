@@ -49,14 +49,12 @@ $ cd demo && python manage.py runserver
 ```
 You may see an error in your terminal.
 
-<span style="color:red">You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
-Run 'python manage.py migrate' to apply them.</span>
+*You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.*
 
 ```sh
 $ python manage.py migrate
 ```
-
-Visit http://127.0.0.1:8000/admin from your browser.
 
 We need to create an admin username and password before we can access the admin dashboard.
 
@@ -67,8 +65,8 @@ $ python manage.py createsuperuser
 Click into *Demos -> Add Demo* and you will see that the TinyMCE WYSIWYG editor is loaded.
 
 ## Further reading
-[django-tinymce documentation]https://django-tinymce.readthedocs.io/en/latest/
-[Integration with django-filebrowser]https://django-filebrowser.readthedocs.io/en/latest/
+[django-tinymce documentation](https://django-tinymce.readthedocs.io/en/latest/)
+[Integration with django-filebrowser](https://django-filebrowser.readthedocs.io/en/latest/)
 
 ## License
 **MIT License**
