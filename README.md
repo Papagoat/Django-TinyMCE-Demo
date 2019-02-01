@@ -63,6 +63,10 @@ $ python manage.py createsuperuser
 
 Click into *Demos -> Add Demo* and you will see that the TinyMCE WYSIWYG editor is loaded.
 
+## Further reading
+[django-tinymce documentation]https://django-tinymce.readthedocs.io/en/latest/
+[Integration with django-filebrowser]https://django-filebrowser.readthedocs.io/en/latest/
+
 ## License
 **MIT License**
 
