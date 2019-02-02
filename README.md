@@ -27,8 +27,8 @@ $ .\ENV\Scripts\activate
 
 **Mac**
 ```sh
-$ virtualenv ENV
-$ source ./env/bin/activate
+$ python3 -m venv myvenv
+$ source ./myvenv/bin/activate
  ```
 
 4. Install django and django-tinymce
