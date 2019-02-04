@@ -2,7 +2,7 @@
 
 ## Prerequisite
 * Python => v3.7.2
-* Virtualenv => v16.2.0
+* venv
 * Django => v2.1.5
 * Django-tinymce => v2.8.0
 
@@ -10,26 +10,13 @@
 
 1. Download [Python](https://www.python.org/downloads/).
 
+2. Set up [venv](https://docs.python.org/3/library/venv.html)
+3. Activate your virtual environment
 
-2. Install virtualenv
-
-```sh
-$ pip install virtualenv
-```
-
-3. Activate your virtualenv
-
-**Windows**
-```sh
-$ virtualenv ENV
-$ .\ENV\Scripts\activate
-```
-
-**Mac**
 ```sh
 $ python3 -m venv myvenv
 $ source ./myvenv/bin/activate
- ```
+```
 
 4. Install django and django-tinymce
 
